@@ -90,7 +90,8 @@ $("#selectedParts-excel").excelTable({
             purchasePrice+=parseFloat(v.LastBuyPrice)||0;
         });
         $("#totalPurchasePrice").html(purchasePrice.toFixed(2));
-    }
+    },
+    blankRowQuantity:10                         //空白数据时显示的行数
 });
 ```
 
