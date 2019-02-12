@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-table-container tbody tr td {
+    white-space: nowrap;
+}
+.fixed-table-container ,.bootstrap-table .table{
+    border-radius: 0px;
+}
+
+.btn-delete{
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 2px;
+    padding: 2px 10px;
+}
+
+
+.btn-delete {
+    border: 1px solid rgb(236, 71, 88);
+    background: rgb(236, 71, 88);
+}
+
+
+table.fixHeader th, table.fixHeader td {
+    height: 40px;
+    padding: 2px 8px 4px 8px;
+    border: 1px solid #d8c0c085;
+}
+
+table.fixHeader tbody {
+    display: none;
+}
+
+
+.table[data-type=repairOrder],.fixed-table-header table{table-layout:fixed;word-break:break-all;}
+.table[data-type=repairOrder] tbody tr td{
+    white-space: normal;
+}
+.table[data-type=repairOrder] > tbody > tr > td{
+    padding-top: 4px!important;
+    padding-bottom: 4px!important;
+}
+
+.tdselect{
+    position: relative;
+}
+
+.excelTableBody .fixed-table-body{
+    overflow-x: visible;
+    overflow-y: visible;
+}
+.excelTableBody td.tdselect{
+    border:1px solid #000000;
+    /*box-shadow: 0px 0px 0px 1px #000;*/
+}
+
+.excelTableBody table[data-table=excelTable]{
+    border: 1px solid #dddddd;
+}
+
+.excelTableBody table[data-table=excelTable]>tbody>tr{
+    background-color: transparent!important;
+}
+.excelTableBody table[data-table=excelTable]>tbody>tr:hover{
+    background-color: #EEEEEE!important;
+}
+.excelTableBody table[data-table=excelTable] .dropdown,.excelTableBody table[data-table=excelTable] .autocomplete{
+    position: relative;
+    padding-right:18px!important;
+}
+.excelTableBody table[data-table=excelTable] .dropdown:after,.excelTableBody table[data-table=excelTable] .autocomplete:after{
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 24px;
+    margin-top: -8px;
+    border: 5px solid transparent;
+    border-top-color: #333333;
+    line-height: 45px;
+}
+.excelTableBody table[data-table=excelTable] td.disabled{
+    background-color: #f2f2f2;
+}
+
+.excelTableBody .fixed-table-container{
+    border:none;
+}
+.excelTableBody #autocompleteTable{
+    font-size: 12px!important;
+}
+
+.excelTableBody #autocompleteTable td,.excelTableBody #autocompleteTable .th-inner {
+    padding: 4px!important;
+}
+.excelTableBody .autocomplete .dropdown-menu{
+    padding:0;
+}
+
+.contextmenu{
+    width: 200px;
+    display: block;
+    position: fixed;
+}
+.contextmenu li{
+    padding: 5px 0;
+    cursor: pointer;
+}
+.contextmenu li:hover,.bgccc{
+    background-color: #dedede;
+}
+
